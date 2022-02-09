@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/dynamic-input",
+  "sourceRoot": "libs/dynamic-input/src",
+  "prefix": "tdp",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/dynamic-input"],
+      "options": {
+        "jestConfig": "libs/dynamic-input/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/dynamic-input/src/**/*.ts",
+          "libs/dynamic-input/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

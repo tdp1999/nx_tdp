@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "dynamic-input": "libs/dynamic-input",
+    "test-nx": "apps/test-nx",
+    "test-nx-e2e": "apps/test-nx-e2e"
+  }
 }
